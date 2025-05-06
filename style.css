@@ -1,0 +1,390 @@
+*{
+    font-family: "inter";
+    margin: 0;
+}
+
+#apresentacao {
+    background: #0C70F2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+#apresentacao > h1 {
+    flex-grow: calc(1);
+    margin-left: 2rem;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.links{
+   margin-right: 2rem;
+   margin-bottom: 0;
+   cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #b1b1b1;
+    transform: translateY(-0.2rem);
+    transition-duration: 1s;
+
+}
+
+#menu-informacional {
+    background: #F2F2F2;
+    padding: 2rem 2rem 10rem 2rem;
+}
+
+.info-1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+.title {
+    padding: 5rem 2rem 0rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+#nuvem1 {
+    width: 11rem;
+    height: 9rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem ;
+}
+
+
+.container {
+    background: #fff;
+    padding: 6rem 4rem 4rem 4rem;
+    border-radius: 1rem;
+    display: grid;
+    justify-content: center;
+}
+
+ #button {
+    background: #0C70F2;
+    color: #fff;
+    transition: opacity 0.5s ease-in-out, transform 0.5s .2s;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 5px 4px #aacdfa;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+ #button:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.form-grup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.form-grup > input {
+    border-radius: 0.5rem;
+    border: none;
+    background: #F2F2F2;
+    padding: 1rem 17rem 1rem 1rem;
+}
+
+.form-grup > label {
+    margin-bottom: 1rem;
+}
+
+#localizacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#localizacao > input {
+    border-radius: 0.5rem;
+    border: none;
+    background: #F2F2F2;
+    padding: 1rem 3.8rem 1rem 1rem;
+    width: 9.5rem;
+}
+
+.info-2 {
+    display: flex;
+    justify-content: center;
+    padding: 10rem 8rem 2rem 0 ;
+    padding-bottom: 2rem;
+    padding-top: 10rem;
+}
+
+.grid-itens {
+    font-weight: 800;
+    display: grid;
+    justify-content: center;
+}
+
+.grid-container {
+    border: none;
+    font-weight: 800;
+    border-radius: 1.5rem;
+}
+
+.col-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #0C70F2;
+    padding: 1rem 17rem 1rem 3rem;
+    color: #fff;
+    border: none;
+    font-weight: 800;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.col-2 {
+    align-items: start;
+    background: #fff;
+    color: black;
+    padding: 1.3rem 17rem 1.3rem 3rem;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 0 0 1.5rem 1.5rem ;
+}
+
+.col-2 > input {
+    border: none;
+    font-weight: 800;
+}
+
+#nuvem2 {
+    width: 10rem;
+    height: 6.5rem;
+    margin-top: 2rem;
+}
+
+.container-previsao{
+    align-items: center;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+#grid-previsao {
+    text-align: center;
+    padding: 1rem 16rem 1rem 17rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    border: solid 1px #0C70F2;
+}
+
+#ponto1 {
+    width: 8.5rem;
+    height: 8.4rem;
+    margin-top: 0.5rem;
+}
+
+#graus {
+    border: none;
+    font-weight: 800;
+    padding-right: 0;
+    width: 1rem;
+}
+
+footer {
+    background: #0C70F2;
+    color: #fff;
+    padding: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > p {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+.title {
+    padding-right: 0.5rem;
+    font-size: 2rem;
+}
+
+.info-2 {
+    padding-right: 2rem;
+}
+
+.col-1{
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
+.col-2{
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
+#grid-previsao{
+    padding-left: 9rem;
+    padding-right: 10rem;
+}
+
+#nuvem1 {
+    width: 9rem;
+    height: 7rem;
+}
+
+#nuvem2 {
+    width: 7rem;
+    height: 4.5rem;
+    margin-top: 3.5rem;
+}
+
+#ponto1 {
+    width: 6.5rem;
+    height: 6.4rem;
+    margin-top: 2rem;
+}
+ 
+}
+
+@media only screen and (max-width:767px) {
+
+    #apresentacao {
+        display: block;
+    }
+
+    #apresentacao > h1 {
+        margin-left: 0;
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .links {
+        margin-right: 0;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+
+    }
+
+    .title {
+        padding-right: 0;
+        font-size: 1rem;
+    }
+
+    .container {
+        background: #fff;
+        border-radius: 1rem;
+        display: grid;
+        padding: 3rem 2rem 2rem 2rem;
+        justify-content: center;
+    }
+
+    .form-grup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 9rem;
+        font-size: 0.8rem;
+    }
+
+    .form-grup > input {
+        border-radius: 0.5rem;
+        border: none;
+        background: #F2F2F2;
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 0.6rem;
+    }
+
+    #localizacao > input {
+        border-radius: 0.5rem;
+        border: none;
+        background: #F2F2F2;
+        padding: 1rem 0.3rem 1rem 0.3rem;
+        width: 3rem;
+        font-size: 0.6rem;
+    }
+    
+    .info-2 {
+        padding: 4rem 2rem 2rem 0;
+    }
+    
+    .col-1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background: #0C70F2;
+        padding: 1rem 2rem 1rem 1rem;
+        color: #fff;
+        border: none;
+        font-weight: 800;
+        border-radius: 1.5rem 1.5rem 0 0;
+        max-width: 20rem;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    
+    .col-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+        background: #fff;
+        color: black;
+        padding: 1.3rem 1rem 1.3rem 1rem;
+        font-weight: 800;
+        text-align: center;
+        border-radius: 0 0 1.5rem 1.5rem ;
+        max-width: 20rem;
+    }
+
+    .col-2 > input {
+        border: none;
+        font-weight: 800;
+        max-width: 6rem;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    
+    #grid-previsao{
+        font-size: 0.7rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    
+    #nuvem1 {
+        width: 8rem;
+        height: 6rem;
+        margin-top: 4rem;
+    }
+    
+    #nuvem2 {
+        width: 6rem;
+        height:4rem;
+        margin-top: 3rem;
+    }
+    
+    #ponto1 {
+        width: 5.5rem;
+        height: 5.4rem;
+        margin-top: 2rem;
+    }
+     
+    footer > p {
+        font-size: 0.7rem;
+    }
+  
+}
